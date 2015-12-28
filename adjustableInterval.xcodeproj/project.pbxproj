@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A629D37D7DFA1DD8F15807D /* Pods_adjustableIntervalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5FEC1D755FE96B44837E65 /* Pods_adjustableIntervalUITests.framework */; };
+		4F362A151C3104EB0045FBC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362A141C3104EB0045FBC4 /* AppDelegate.swift */; };
+		4F362A171C3104EB0045FBC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362A161C3104EB0045FBC4 /* ViewController.swift */; };
+		4F362A1A1C3104EB0045FBC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F362A181C3104EB0045FBC4 /* Main.storyboard */; };
+		4F362A1C1C3104EB0045FBC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F362A1B1C3104EB0045FBC4 /* Assets.xcassets */; };
+		4F362A1F1C3104EB0045FBC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F362A1D1C3104EB0045FBC4 /* LaunchScreen.storyboard */; };
+		4F362A2A1C3104EB0045FBC4 /* adjustableIntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362A291C3104EB0045FBC4 /* adjustableIntervalTests.swift */; };
+		4F362A351C3104EB0045FBC4 /* adjustableIntervalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F362A341C3104EB0045FBC4 /* adjustableIntervalUITests.swift */; };
+		827EC124B6BABEE5BB8672C9 /* Pods_adjustableInterval.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5222452686B06C056AE07 /* Pods_adjustableInterval.framework */; };
+		D114F21943B5810B5B431C57 /* Pods_adjustableIntervalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8CCBB2ED2EAE92829E867C /* Pods_adjustableIntervalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F362A261C3104EB0045FBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F362A091C3104EB0045FBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F362A101C3104EB0045FBC4;
+			remoteInfo = adjustableInterval;
+		};
+		4F362A311C3104EB0045FBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F362A091C3104EB0045FBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F362A101C3104EB0045FBC4;
+			remoteInfo = adjustableInterval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E41B62AF1769BFBBC693DC5 /* Pods-adjustableIntervalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableIntervalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableIntervalUITests/Pods-adjustableIntervalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5FEC1D755FE96B44837E65 /* Pods_adjustableIntervalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adjustableIntervalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F362A111C3104EB0045FBC4 /* adjustableInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adjustableInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F362A141C3104EB0045FBC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F362A161C3104EB0045FBC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F362A191C3104EB0045FBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F362A1B1C3104EB0045FBC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F362A1E1C3104EB0045FBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F362A201C3104EB0045FBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F362A251C3104EB0045FBC4 /* adjustableIntervalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adjustableIntervalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F362A291C3104EB0045FBC4 /* adjustableIntervalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjustableIntervalTests.swift; sourceTree = "<group>"; };
+		4F362A2B1C3104EB0045FBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F362A301C3104EB0045FBC4 /* adjustableIntervalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adjustableIntervalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F362A341C3104EB0045FBC4 /* adjustableIntervalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjustableIntervalUITests.swift; sourceTree = "<group>"; };
+		4F362A361C3104EB0045FBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696AF975D861ECEF6E898469 /* Pods-adjustableIntervalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableIntervalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableIntervalUITests/Pods-adjustableIntervalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80A5222452686B06C056AE07 /* Pods_adjustableInterval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adjustableInterval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A5306812191EADFE5D45FD /* Pods-adjustableIntervalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableIntervalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableIntervalTests/Pods-adjustableIntervalTests.release.xcconfig"; sourceTree = "<group>"; };
+		964E34D2F09209988B602517 /* Pods-adjustableIntervalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableIntervalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableIntervalTests/Pods-adjustableIntervalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A075847D1F007BDA042D55E /* Pods-adjustableInterval.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableInterval.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableInterval/Pods-adjustableInterval.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F4A70DC6B986F5E3608607 /* Pods-adjustableInterval.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adjustableInterval.release.xcconfig"; path = "Pods/Target Support Files/Pods-adjustableInterval/Pods-adjustableInterval.release.xcconfig"; sourceTree = "<group>"; };
+		EB8CCBB2ED2EAE92829E867C /* Pods_adjustableIntervalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adjustableIntervalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F362A0E1C3104EB0045FBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827EC124B6BABEE5BB8672C9 /* Pods_adjustableInterval.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A221C3104EB0045FBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D114F21943B5810B5B431C57 /* Pods_adjustableIntervalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A2D1C3104EB0045FBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A629D37D7DFA1DD8F15807D /* Pods_adjustableIntervalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2DDCF56669272322B9CDF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A5222452686B06C056AE07 /* Pods_adjustableInterval.framework */,
+				EB8CCBB2ED2EAE92829E867C /* Pods_adjustableIntervalTests.framework */,
+				2D5FEC1D755FE96B44837E65 /* Pods_adjustableIntervalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F362A081C3104EB0045FBC4 = {
+			isa = PBXGroup;
+			children = (
+				4F362A131C3104EB0045FBC4 /* adjustableInterval */,
+				4F362A281C3104EB0045FBC4 /* adjustableIntervalTests */,
+				4F362A331C3104EB0045FBC4 /* adjustableIntervalUITests */,
+				4F362A121C3104EB0045FBC4 /* Products */,
+				F1BCBA78A2F0B2D65E2F6C37 /* Pods */,
+				3C2DDCF56669272322B9CDF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F362A121C3104EB0045FBC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F362A111C3104EB0045FBC4 /* adjustableInterval.app */,
+				4F362A251C3104EB0045FBC4 /* adjustableIntervalTests.xctest */,
+				4F362A301C3104EB0045FBC4 /* adjustableIntervalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F362A131C3104EB0045FBC4 /* adjustableInterval */ = {
+			isa = PBXGroup;
+			children = (
+				4F362A141C3104EB0045FBC4 /* AppDelegate.swift */,
+				4F362A161C3104EB0045FBC4 /* ViewController.swift */,
+				4F362A181C3104EB0045FBC4 /* Main.storyboard */,
+				4F362A1B1C3104EB0045FBC4 /* Assets.xcassets */,
+				4F362A1D1C3104EB0045FBC4 /* LaunchScreen.storyboard */,
+				4F362A201C3104EB0045FBC4 /* Info.plist */,
+			);
+			path = adjustableInterval;
+			sourceTree = "<group>";
+		};
+		4F362A281C3104EB0045FBC4 /* adjustableIntervalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F362A291C3104EB0045FBC4 /* adjustableIntervalTests.swift */,
+				4F362A2B1C3104EB0045FBC4 /* Info.plist */,
+			);
+			path = adjustableIntervalTests;
+			sourceTree = "<group>";
+		};
+		4F362A331C3104EB0045FBC4 /* adjustableIntervalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F362A341C3104EB0045FBC4 /* adjustableIntervalUITests.swift */,
+				4F362A361C3104EB0045FBC4 /* Info.plist */,
+			);
+			path = adjustableIntervalUITests;
+			sourceTree = "<group>";
+		};
+		F1BCBA78A2F0B2D65E2F6C37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A075847D1F007BDA042D55E /* Pods-adjustableInterval.debug.xcconfig */,
+				D0F4A70DC6B986F5E3608607 /* Pods-adjustableInterval.release.xcconfig */,
+				964E34D2F09209988B602517 /* Pods-adjustableIntervalTests.debug.xcconfig */,
+				80A5306812191EADFE5D45FD /* Pods-adjustableIntervalTests.release.xcconfig */,
+				696AF975D861ECEF6E898469 /* Pods-adjustableIntervalUITests.debug.xcconfig */,
+				0E41B62AF1769BFBBC693DC5 /* Pods-adjustableIntervalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F362A101C3104EB0045FBC4 /* adjustableInterval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F362A391C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableInterval" */;
+			buildPhases = (
+				7683795A2B6B4C4CE786478D /* Check Pods Manifest.lock */,
+				4F362A0D1C3104EB0045FBC4 /* Sources */,
+				4F362A0E1C3104EB0045FBC4 /* Frameworks */,
+				4F362A0F1C3104EB0045FBC4 /* Resources */,
+				D52F8BF3AB0187A4294DCD63 /* Embed Pods Frameworks */,
+				59B5D1844F57A1FFCD695082 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adjustableInterval;
+			productName = adjustableInterval;
+			productReference = 4F362A111C3104EB0045FBC4 /* adjustableInterval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F362A241C3104EB0045FBC4 /* adjustableIntervalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F362A3C1C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableIntervalTests" */;
+			buildPhases = (
+				EFE77763F73A639B17C675B8 /* Check Pods Manifest.lock */,
+				4F362A211C3104EB0045FBC4 /* Sources */,
+				4F362A221C3104EB0045FBC4 /* Frameworks */,
+				4F362A231C3104EB0045FBC4 /* Resources */,
+				1D6780F719C2DF9CF8ED73A7 /* Embed Pods Frameworks */,
+				568CBFD3AAFCB30F73C21E07 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F362A271C3104EB0045FBC4 /* PBXTargetDependency */,
+			);
+			name = adjustableIntervalTests;
+			productName = adjustableIntervalTests;
+			productReference = 4F362A251C3104EB0045FBC4 /* adjustableIntervalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F362A2F1C3104EB0045FBC4 /* adjustableIntervalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F362A3F1C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableIntervalUITests" */;
+			buildPhases = (
+				6D8D9107E7A29272FD6AFBFC /* Check Pods Manifest.lock */,
+				4F362A2C1C3104EB0045FBC4 /* Sources */,
+				4F362A2D1C3104EB0045FBC4 /* Frameworks */,
+				4F362A2E1C3104EB0045FBC4 /* Resources */,
+				A16BC5614F5AF0A47E26DF61 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F362A321C3104EB0045FBC4 /* PBXTargetDependency */,
+			);
+			name = adjustableIntervalUITests;
+			productName = adjustableIntervalUITests;
+			productReference = 4F362A301C3104EB0045FBC4 /* adjustableIntervalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F362A091C3104EB0045FBC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = m0a;
+				TargetAttributes = {
+					4F362A101C3104EB0045FBC4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3GLZGKK6HE;
+					};
+					4F362A241C3104EB0045FBC4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3GLZGKK6HE;
+						TestTargetID = 4F362A101C3104EB0045FBC4;
+					};
+					4F362A2F1C3104EB0045FBC4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3GLZGKK6HE;
+						TestTargetID = 4F362A101C3104EB0045FBC4;
+					};
+				};
+			};
+			buildConfigurationList = 4F362A0C1C3104EB0045FBC4 /* Build configuration list for PBXProject "adjustableInterval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F362A081C3104EB0045FBC4;
+			productRefGroup = 4F362A121C3104EB0045FBC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F362A101C3104EB0045FBC4 /* adjustableInterval */,
+				4F362A241C3104EB0045FBC4 /* adjustableIntervalTests */,
+				4F362A2F1C3104EB0045FBC4 /* adjustableIntervalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F362A0F1C3104EB0045FBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F362A1F1C3104EB0045FBC4 /* LaunchScreen.storyboard in Resources */,
+				4F362A1C1C3104EB0045FBC4 /* Assets.xcassets in Resources */,
+				4F362A1A1C3104EB0045FBC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A231C3104EB0045FBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A2E1C3104EB0045FBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6780F719C2DF9CF8ED73A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adjustableIntervalTests/Pods-adjustableIntervalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568CBFD3AAFCB30F73C21E07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adjustableIntervalTests/Pods-adjustableIntervalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B5D1844F57A1FFCD695082 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adjustableInterval/Pods-adjustableInterval-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8D9107E7A29272FD6AFBFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7683795A2B6B4C4CE786478D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A16BC5614F5AF0A47E26DF61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adjustableIntervalUITests/Pods-adjustableIntervalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52F8BF3AB0187A4294DCD63 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adjustableInterval/Pods-adjustableInterval-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE77763F73A639B17C675B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F362A0D1C3104EB0045FBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F362A171C3104EB0045FBC4 /* ViewController.swift in Sources */,
+				4F362A151C3104EB0045FBC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A211C3104EB0045FBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F362A2A1C3104EB0045FBC4 /* adjustableIntervalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F362A2C1C3104EB0045FBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F362A351C3104EB0045FBC4 /* adjustableIntervalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F362A271C3104EB0045FBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F362A101C3104EB0045FBC4 /* adjustableInterval */;
+			targetProxy = 4F362A261C3104EB0045FBC4 /* PBXContainerItemProxy */;
+		};
+		4F362A321C3104EB0045FBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F362A101C3104EB0045FBC4 /* adjustableInterval */;
+			targetProxy = 4F362A311C3104EB0045FBC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F362A181C3104EB0045FBC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F362A191C3104EB0045FBC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F362A1D1C3104EB0045FBC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F362A1E1C3104EB0045FBC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F362A371C3104EB0045FBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F362A381C3104EB0045FBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F362A3A1C3104EB0045FBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A075847D1F007BDA042D55E /* Pods-adjustableInterval.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = adjustableInterval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableInterval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F362A3B1C3104EB0045FBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F4A70DC6B986F5E3608607 /* Pods-adjustableInterval.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = adjustableInterval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableInterval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F362A3D1C3104EB0045FBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964E34D2F09209988B602517 /* Pods-adjustableIntervalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adjustableIntervalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adjustableInterval.app/adjustableInterval";
+			};
+			name = Debug;
+		};
+		4F362A3E1C3104EB0045FBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A5306812191EADFE5D45FD /* Pods-adjustableIntervalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adjustableIntervalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adjustableInterval.app/adjustableInterval";
+			};
+			name = Release;
+		};
+		4F362A401C3104EB0045FBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696AF975D861ECEF6E898469 /* Pods-adjustableIntervalUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = adjustableIntervalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adjustableInterval;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F362A411C3104EB0045FBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E41B62AF1769BFBBC693DC5 /* Pods-adjustableIntervalUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = adjustableIntervalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m0a.adjustableIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adjustableInterval;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F362A0C1C3104EB0045FBC4 /* Build configuration list for PBXProject "adjustableInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F362A371C3104EB0045FBC4 /* Debug */,
+				4F362A381C3104EB0045FBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F362A391C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F362A3A1C3104EB0045FBC4 /* Debug */,
+				4F362A3B1C3104EB0045FBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F362A3C1C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableIntervalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F362A3D1C3104EB0045FBC4 /* Debug */,
+				4F362A3E1C3104EB0045FBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F362A3F1C3104EB0045FBC4 /* Build configuration list for PBXNativeTarget "adjustableIntervalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F362A401C3104EB0045FBC4 /* Debug */,
+				4F362A411C3104EB0045FBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F362A091C3104EB0045FBC4 /* Project object */;
+}
