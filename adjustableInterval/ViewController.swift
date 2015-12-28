@@ -10,6 +10,22 @@ import UIKit
 import RxSwift
 import RxCocoa
 
+
+public func interval(throttle throttle:Variable<Double>) -> Observable<Double> {
+    
+    return create { (observer) -> Disposable in
+        
+        var intervalDisposer:Disposable?
+        return throttle.subscribeNext { (chagedValue) -> Void in
+            intervalDisposer?.dispose()
+            intervalDisposer = interval(chagedValue, MainScheduler.sharedInstance).subscribeNext({ count -> Void in
+                observer.on(.Next(chagedValue))
+            })
+        }
+    }
+}
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var incrementalLabel: UILabel!
@@ -25,18 +41,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var _timer:Observable<Int64>?
-        var timeDisposer:Disposable?
-        
-        //durationTime change
-        durationTime.subscribeNext { d in
-            timeDisposer?.dispose()
-            _timer = interval(d, MainScheduler.sharedInstance)
-            timeDisposer = _timer?
-                .subscribeNext { _ in
-                    self.incrementValue.value += 1
-                }
-            }.addDisposableTo(disposeBag)
+        interval(throttle: durationTime).subscribeNext { _ in
+            self.incrementValue.value += 1
+        }.addDisposableTo(disposeBag)
         
 
         //txt
